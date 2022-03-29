@@ -1,0 +1,8 @@
+/* Stylesheet */
+
+h1{
+    font-size: 40px;
+    color: darkblue;
+    text-decoration: underline;
+    cursor: default;
+ }
