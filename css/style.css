@@ -7,25 +7,17 @@ h1 {
 }
 
 /* Link styles */
-a:link {
-   color: red;
+a:link, a:visited {
+   color: rgb(88, 100, 197);
    text-decoration: none;
 }
 
 a:hover {
-   color: rgb(49, 100, 148);
+   color: darkblue;
    text-decoration: underline;
 }
 
 a:active {
-   color: rgb(33, 9, 106);
+   color: rgb(0, 1, 3);
    text-decoration: underline;
-}
-
-a:visited {
-   color: rgb(189, 87, 62);
-}
-
-a:visited:hover {
-   color: rgb(49, 100, 148);
 }
