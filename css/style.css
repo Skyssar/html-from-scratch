@@ -34,7 +34,7 @@ table{
 }
 
 thead{
-   background-color: black;
+   background-color: darkblue;
    color: white;
 }
 
@@ -57,7 +57,7 @@ caption{
 
 /* Navigation List styles  */
 nav{
-   background-color: black;
+   background-color: darkblue;
    /* padding: 20px; */
    height: 60px;
 }
