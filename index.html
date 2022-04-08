@@ -17,6 +17,9 @@
    </style> 
    -->
    <link rel="stylesheet" href="/css/style.css" />
+
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
 </head>
 
 <!-- <body style="background-color: powderblue;"> -->
@@ -25,10 +28,16 @@
       <h1 title="HTML from scratch">HTML Course from Scratch</h1>
       <hr/>
       <nav>
-         <a href="#">Home</a> &verbar;
+         <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#othertags">Other Tags</a></li>
+         </ul>
+         <!-- <a href="#">Home</a> &verbar;
          <a href="contact.html">Contact</a> &verbar;
          <a href="about.html">About</a> &verbar;
-         <a href="#othertags">Other Tags</a>
+         <a href="#othertags">Other Tags</a> -->
       </nav>
    </header>
    
@@ -83,8 +92,7 @@
             <thead>
                <tr>
                   <th scope="col">#</th>
-                  <th scope="col">First</th>
-                  <th scope="col">Last</th>
+                  <th scope="col" colspan="2">Name</th>
                   <th scope="col">Handle</th>
                </tr>
             </thead>
@@ -108,6 +116,7 @@
                   <td>@twitter</td>
                 </tr>
             </tbody>
+            <caption>List of people</caption>
          </table>
       </section>
       <hr/>

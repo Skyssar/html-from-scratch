@@ -1,6 +1,7 @@
 /* Stylesheet */
 *{
    box-sizing: border-box;
+   font-family: 'Trocchi', serif;
 }
 
 h1 {
@@ -41,4 +42,47 @@ th, td{
    padding: 10px;
    border-top: 1px solid rgb(239, 238, 238);
    text-align: center;
+}
+/* Even Rows  */
+tr:nth-child(even){
+   background-color: rgb(243, 243, 252);
+}
+
+caption{
+   line-height: 30px;
+   color: darkblue;
+   font-weight: bold;
+   font-size: 15px;
+}
+
+/* Navigation List styles  */
+nav{
+   background-color: black;
+   /* padding: 20px; */
+   height: 60px;
+}
+
+.nav-menu{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   /* justify-content: space-between; */
+   line-height: 60px;
+}
+
+/* .nav-menu li{
+   display: inline-block; 
+} */
+
+.nav-menu li a{
+   display: block;
+   color: azure;
+   padding: 0 25px;
+}
+
+.nav-menu li a:hover{
+   color: darkblue;
+   background-color: rgb(235, 235, 243);
+   text-decoration: none;
 }
